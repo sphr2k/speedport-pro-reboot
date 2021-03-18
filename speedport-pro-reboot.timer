@@ -1,0 +1,8 @@
+[Unit]
+Description=Reboot Speedport @ 4:00
+
+[Timer]
+OnCalendar=4:00
+
+[Install]
+WantedBy=multi-user.target
