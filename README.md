@@ -8,7 +8,7 @@ The _Speedport Pro_ router from Deutsche Telekom tends to become slow and unstab
 
 ## Installation
 
-* Change router IP and password in `speedport-reboot.js`
+* Change router IP and password (`###router-password###`) in `speedport-reboot.js`
 * Adapt and install `systemd` service & timer (or use `cron` if you prefer)
 
 ## Compatibilty
