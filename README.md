@@ -11,6 +11,10 @@ The _Speedport Pro_ router from Deutsche Telekom tends to become slow and unstab
 * Change router IP and password (`###router-password###`) in `speedport-reboot.js`
 * Adapt and install `systemd` service & timer (or use `cron` if you prefer)
 
+## Dependencies
+
+The Buildkite [Puppeteer Docker container](https://hub.docker.com/r/buildkite/puppeteer/) is used to run the script.
+
 ## Compatibilty
 
 Tested with router firmware v4.0 (120133.4.0.022.3)
