@@ -1,6 +1,6 @@
 # Speedport Pro Reboot Script
 
-The _Speedport Pro_ router from Deutsche Telekom tends to become slow and unstable after a couple of days, so I decided to reboot it every night. This script is definitely not the most elegant solution, but it works.
+The _Speedport Pro_ router from Deutsche Telekom tends to become slow and unstable after a couple of days, so I decided to reboot it every night. This script, which simply simulates the clicks inside a headless Chrome browser using [Puppeteer](https://github.com/puppeteer/puppeteer) is definitely not the most elegant solution, but it works.
 
 ## Requirements
 
@@ -9,7 +9,7 @@ The _Speedport Pro_ router from Deutsche Telekom tends to become slow and unstab
 ## Installation
 
 * Change router IP and password in `speedport-reboot.js`
-* Install systemd unit & timer
+* Adapt and install `systemd` service & timer (or use `cron` if you prefer)
 
 ## Compatibilty
 
